@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/PlaceViewTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title_bg"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/PlaceTitle"
+                android:textColor="@color/white"
+                android:textSize="28dp" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/llayout_img_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/pic_frame"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/PlaceImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:drawingCacheQuality="auto"
+                    android:fadingEdge="horizontal|vertical"
+                    android:fitsSystemWindows="true"
+                    android:padding="30dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/place" >
+                </ImageView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/PlaceNameEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/black"
+                android:editable="false"
+                android:maxLength="30"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="@string/PlaceNameInput"
+                android:textColor="@color/white"
+                android:textSize="24dp" >
+            </TextView>
+            <!--
+                 <TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/PlaceDescribeEdit"
+				android:text="@string/PlaceDescInput" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:padding="10dp"
+				android:singleLine="true" android:editable="false" android:textSize="20dp"
+				android:maxLength="30" android:textColor="@color/white"
+				android:background="@color/black"></TextView>
+            -->
+
+            <Button
+                android:id="@+id/OkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="8dp"
+                android:background="@drawable/confirm_big"
+                android:height="70dp"
+                android:text="@string/back"
+                android:textSize="20dp"
+                android:width="200dp" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Expiration Logger</string>
+
+	<!-- Strings for Toast -->
+	<string name="NoItemInPlaceList">There\'s no item in your place list.</string>
+	<string name="NoItemInStuffList">There\'s no item in your stuff list.\nUse MENU to
+		add stuff first!</string>
+
+	<!-- Strings for user tips -->
+	<string name="LongClickToMoreOptions">You can LONG click any item in the list for more
+		options.</string>
+	<string name="LongClickStuffImg">LONG click picture frame to select any picture can
+		represent your STUFF.</string>
+	<string name="LongClickPlaceImg">LONG click picture frame to select any picture can
+		represent the PLACE you store stuff.</string>
+
+	<string name="total">Total</string>
+
+	<string name="home_footerNotice_stuff">stuff</string>
+	<string name="home_footerNotice_place">place</string>
+	<string name="home_footerNotice_storedIn">stored in</string>
+
+	<!-- Strings for Place -->
+	<string name="PlaceManagement">Place Mgmt</string>
+	<string name="PlaceEditor">Place Editor</string>
+	<string name="PlaceTitle">Place Name</string>
+	<string name="PlaceDesc">Place Description</string>
+	<string name="PlaceEditing">Place Editing</string>
+	<string name="PlaceAddTitle">Add Place</string>
+	<string name="PlaceNameInput">Enter Place name here</string>
+	<string name="PlaceDescInput">Describe Place as</string>
+	<string name="PositionAll">Positioning All</string>
+	<string name="NoPlaceRightNow">There\'s no place in your list right now!\nTry
+		to
+		add place from MENU.</string>
+
+	<!-- Strings for Stuff -->
+	<string name="StuffManagement">Stuff Mgmt</string>
+	<string name="StuffDesc">Stuff Description</string>
+	<string name="AddStuff">Add Stuff</string>
+	<string name="StuffNameInput">Enter Stuff name here</string>
+	<string name="StuffDescInput">Describe that stuff</string>
+	<string name="StoredAt">Stored @ </string>
+	<string name="SelectPlace">Select Place Or Add from MENU</string>
+	<string name="MyStuff">My Stuff</string>
+	<string name="StuffEditing">Stuff Editing</string>
+	<string name="AddNewPlaceTip">From MENU you can add new place then choose it from
+		list above.</string>
+	<string name="day">day</string>
+	<string name="ago">ago</string>
+	<string name="left">left</string>
+	<string name="expired">expired</string>
+	<string name="expiredToday">Expired Today</string>
+	<string name="NoStuffRightNow">There\'s no stuff in your possess right now!\nTry
+		to add some stuff from MENU.</string>
+	<string name="NoStuffRightNow_widget">No stuff record</string>
+
+
+	<string name="DayLeftTip">RED means less than 3 days, BLUE means normal, GREY
+		means already expired.</string>
+
+
+
+	<string name="SelectImgSource">Select image source</string>
+	<string-array name="ImgSrc">
+		<item>From File</item>
+		<item>From Camera</item>
+	</string-array>
+
+	<string name="StuffExpiredDate">Expire Date: %tF &gt;</string>
+	<string name="StuffAt">Select Stuff Place &gt;</string>
+
+	<string name="Confirm">Ok</string>
+	<string name="Cancel">Cancel</string>
+
+	<string name="Oops">Oops!</string>
+	<string name="NothingInIt">There\'s nothing in it!</string>
+	<string name="AddPlaceBeforeAddStuff">"There\'s NO PLACE to store stuff right now!
+		\nBefore creating a stuff, You HAVE to add a place to store that stuff. 
+		\nChoose \"Add PLACE\", or \"Cancel\" to dismiss this message.
+	</string>
+	<string name="Attention">Attention!</string>
+	<string name="DeletePlaceAttention">Delete the place will also delete those stuff
+		stored inside it. You can see what\'s inside first to determine if
+		deleting it anyway.</string>
+	<string name="DelAnyway">Delete Anyway</string>
+
+	<string name="SharedOnFacebookNotice">From MENU you can share this stuff on Facebook!
+	</string>
+
+	<string name="Config">Configuration</string>
+
+	<string name="Homepage">Home</string>
+
+	<string-array name="Actions">
+		<item>Edit</item>
+		<item>Delete</item>
+		<!-- <item>Find It</item> -->
+	</string-array>
+
+	<string-array name="PlaceActions">
+		<item>Edit</item>
+		<item>Delete</item>
+		<item>Find What\'s in it</item>
+		<!-- <item>Find It</item> -->
+	</string-array>
+
+	<string name="about">about</string>
+	<string name="about_content">
+		<b>1.</b>
+		This is a Personal Mgmt application,
+		aims to remind you of the validity
+		of items and locations,
+		so that things
+		will not be wasted because of
+		forgetfulness.\n\n
+		<b>2.</b>
+		You need to add
+		items, and specify the location
+		(for example: home
+		refrigerators,
+		storage rooms, etc.) and expiration
+		date.\n\n
+		<b>3.</b>
+		In Stuff List, the day left colors are shown as followed: \nRED means
+		less than 3 days, BLUE means normal, GREY means already expired.\n\n
+		<b>4.</b>
+		From stuff list you can preview all stuff you create, browsing name,
+		description, picture and expiration status. At the bottom info bar, it
+		shows current stuff amount.\n\n
+		<b>5.</b>
+		Items for the LBS function is only
+		provided in full version,
+		you can
+		view other
+		user\'s shared items.\n\n
+		<b>6.</b>
+		Any advice please mail to: robertwang.tw@gmail.com
+	</string>
+
+	<string name="About">About</string>
+	<string name="add_place_or_stuff_warn">Please fill all fields!</string>
+	<string name="stuff_name_duplicate">Stuff name value can\'t be duplicate!</string>
+	<string name="place_name_duplicate">Place name value can\'t be duplicate!</string>
+
+
+	<string name="rotate_left_90">Rotate Left</string>
+	<string name="rotate_right_90">Rotate Right</string>
+	<string name="PlaceViewTitle">Place Name</string>
+	<string name="Reset">Reset</string>
+	<string name="SharedOnFb">Shared On Facebook</string><string name="place_order_asc">ASC</string><string name="place_order_desc">DESC</string><string name="stuff_order_desc">DESC</string><string name="stuff_order_asc">ASC</string>
+	<string name="expirydate">Expiry Date:</string>
+	<string name="StuffViewerTitle">Stuff Name</string>
+	<string name="PlaceName">Place Name</string>
+	<string name="StuffName">Stuff Name</string>
+	<string name="back">Back</string>
+	<string name="SDCardWarning">Make sure SDCard not mounted!</string>
+</resources>

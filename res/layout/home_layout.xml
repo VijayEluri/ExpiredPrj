@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:soundEffectsEnabled="true"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/stuff"
+                android:padding="20dp"
+                android:text="@string/MyStuff"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/addstuff"
+                android:padding="20dp"
+                android:text="@string/AddStuff"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" >
+            </Button>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/place"
+                android:padding="20dp"
+                android:text="@string/PlaceManagement"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" >
+            </Button>
+
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/home_button"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/addplace"
+                android:editable="false"
+                android:padding="20dp"
+                android:text="@string/PlaceAddTitle"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/home_footer"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_margin="8dp"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/NoStuffRightNow"
+            android:textColor="@color/black"
+            android:textSize="14dp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

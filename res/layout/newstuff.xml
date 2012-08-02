@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/NewStuffTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/title_bg"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+                android:text="@string/AddStuff"
+                android:textColor="@color/white"
+                android:textSize="28dp" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/llayout_img_frame"
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/pic_frame"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/StuffImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_centerInParent="true"
+                    android:adjustViewBounds="true"
+                    android:fadingEdge="horizontal|vertical"
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/stuff" >
+                </ImageView>
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/StuffNameEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/StuffNameInput"
+                android:maxLength="30"
+                android:singleLine="true" >
+            </EditText>
+
+            <!--
+            <EditText
+                android:id="@+id/StuffDescribeEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:hint="@string/StuffDescInput"
+                android:maxLength="30"
+                android:singleLine="true" >
+            </EditText>
+            -->
+
+            <!--
+				<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="horizontal"
+				android:id="@+id/LinearLayout01" android:layout_marginTop="5dp"
+				android:layout_marginLeft="3dp" android:layout_marginBottom="8dp"
+				android:layout_marginRight="3dp">
+            -->
+
+            <Button
+                android:id="@+id/StuffExpiredDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:background="@drawable/date_button"
+                android:height="50dp"
+                android:text="@string/StuffExpiredDate"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:width="200dp" >
+            </Button>
+            <!--
+				<ImageView android:id="@+id/ExpiredateIndicatorImg"
+				android:height="50dp" android:layout_width="60dp"
+				android:layout_height="wrap_content"
+				android:src="@drawable/arrow_right_64x64"
+				android:layout_gravity="right|center_vertical"
+				android:background="@drawable/selectplace"></ImageView>
+				</LinearLayout>
+            -->
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/PlaceSelector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@drawable/selectplace"
+                    android:height="50dp"
+                    android:text="@string/StuffAt"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" >
+                </Button>
+                <!--
+					<ImageView android:id="@+id/SelectPlaceIndicatorImg"
+					android:height="50dp" android:layout_width="60dp"
+					android:layout_height="wrap_content"
+					android:src="@drawable/arrow_right_64x64"
+					android:layout_gravity="right|center_vertical"
+					android:background="@drawable/selectplace"></ImageView>
+                -->
+
+                <Button
+                    android:id="@+id/OkButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/confirm_s"
+                    android:height="50dp"
+                    android:text="@string/Confirm"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

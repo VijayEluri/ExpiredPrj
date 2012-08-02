@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Expiration Logger</string>
+
+	<!-- Strings for Toast -->
+	<string name="NoItemInPlaceList">目前存放位置清单中没有任何项目!</string>
+	<string name="NoItemInStuffList">目前物品清单中没有任何项目!请由选项中新增物品</string>
+
+	<!-- Strings for user tips -->
+	<string name="LongClickToMoreOptions">长按任何项目会有其他选项哦!</string>
+	<string name="LongClickStuffImg">长按相框来加入你物品的图片!</string>
+	<string name="LongClickPlaceImg">长按相框来加入存放位置的图片!</string>
+
+	<string name="total">总共有</string>
+	<string name="home_footerNotice_stuff">物品</string>
+	<string name="home_footerNotice_place">存放位置</string>
+	<string name="home_footerNotice_storedIn">在</string>
+	<string name="place_order_asc">递增</string>
+	<string name="place_order_desc">遞減</string>
+	<string name="stuff_order_asc">递增</string>
+	<string name="stuff_order_desc">递减</string>
+	
+
+	<string name="PlaceManagement">位置管理</string>
+	<string name="PlaceEditor">存放位置编辑</string>
+	<string name="PlaceTitle">存放位置名称</string>
+	<string name="PlaceDesc">存放位置描述</string>
+	<string name="PlaceEditing">编辑存放位置中</string>
+	<string name="PlaceAddTitle">新增位置</string>
+	<string name="PlaceNameInput">输入存放位置名称</string>
+	<string name="PlaceDescInput">这位置是在</string>
+	<string name="PositionAll">定位全部</string>
+	<string name="NoPlaceRightNow">目前没有任何存放位置可供显示！\n您可从选单中增加一个存放位置试试看！</string>
+
+	<string name="StuffManagement">物品管理</string>
+	<string name="StuffDesc">物品描述</string>
+	<string name="AddStuff">新增物品</string>
+	<string name="SDCardWarning">请确定SDCard未被占用，再重新点选相机！</string>
+	<string name="StuffNameInput">输入物品名称</string>
+	<string name="StuffDescInput">这物品像是</string>
+	<string name="SelectPlace">选择存放位置或从选单新增</string>
+	<string name="MyStuff">我的物品</string>
+	<string name="StuffEditing">编辑物品中</string>
+	<string name="AddNewPlaceTip">从选单增加新的存放位置之后就可以在上面这个清单选择了!</string>
+	<string name="day">天</string>
+	<string name="ago">前</string>
+	<string name="left">剩</string>
+	<string name="expired">过期</string>
+	<string name="expiredToday">今天过期</string>
+	<string name="NoStuffRightNow">目前没有任何物品的纪录！\n先增加个快要过期的物品试试看吧！</string>
+	<string name="NoStuffRightNow_widget">目前没有物品!</string>
+	<string name="SelectImgSource">选择照片来源</string>
+	<string-array name="ImgSrc">
+		<item>从档案</item>
+		<item>从相机</item>
+	</string-array>
+
+
+	<string name="StuffExpiredDate">过期日: %tF &gt;</string>
+	<string name="StuffViewerTitle">检视物品资讯</string>
+	<string name="StuffName">物品名称</string>
+	<string name="StuffAt">选择物品所在位置 &gt;</string>
+	<string name="expirydate">过期日:</string>
+	<string name="StoredAt">存放在:</string>
+	<string name="PlaceViewTitle">检视存放位置</string>
+
+	<string name="Confirm">確認</string>
+	<string name="Cancel">取消</string>
+
+	<string name="Oops">哎呀!</string>
+	<string name="NothingInIt">裡面沒東西喔!</string>
+	<string name="AddPlaceBeforeAddStuff">没有存放空间可以摆放东西!\n\n产生物品之前，您必须先给它个存放空间哦!\n\n您可选择「新增存放位置」,或「取消」关闭这个讯息.
+	</string>
+	<string name="Attention">注意!</string>
+	<string name="DeletePlaceAttention">删除存放位置同时也会删掉存放在里面的物品！\n建议您先看看里面有什么再决定是否删除哦！
+	</string>
+	<string name="DelAnyway">还是删除</string>
+	<string name="SharedOnFacebookNotice">开启选单你可以分享这个物品到Facebook上让好友知道哦!</string>
+	<string name="PlaceName">存放位置名称</string>
+	<string name="back">上一页</string>
+	<string name="Config">设定</string>
+
+	<string name="Homepage">首页</string>
+
+	<string-array name="Actions">
+		<item>编辑</item>
+		<item>删除</item>
+		<!--<item>寻找位置</item> -->
+	</string-array>
+
+	<string-array name="PlaceActions">
+		<item>编辑</item>
+		<item>删除</item>
+		<item>看看里面有啥</item>
+	</string-array>
+
+
+	<string name="about_content">
+		<b>1.</b>
+		这是个人物品管理的应用软件， 目的在提醒您物品的[有效期限]与[位置]，
+		让东西不再因为遗忘而浪费。\n\n
+		<b>2.</b>
+		你需要先新增物品，并指定他所在的位置(例如:家中的冰箱、储藏室等)和有效期限。\n\n
+		<b>3.</b>
+		物品清单中的过期天数红色表示不到3天就要过期；蓝色表示正常；灰色表示已过期。\n\n
+		<b>4.</b>
+		物品清单上可看到所有纪录的物品及其相关资讯包括名称、叙述、缩图及期限天数，清单底部则显示物品数量。\n\n
+		<b>5.</b>
+		附近物品为社交的功能(Lite板不提供)，可以取得"附近"其他使用者可分享的物品。\n\n
+		<b>6.</b>
+		若有指教请 mail至: wangqaa@gmail.com
+	</string>
+
+	<string name="About">关于</string>
+	<string name="add_place_or_stuff_warn">每个栏位都是必填的哦!</string>
+	<string name="stuff_name_duplicate">物品名称不能重复哦!</string>
+	<string name="place_name_duplicate">存放位置名称不能重复哦!</string>
+
+	<string name="rotate_left_90">向左旋转</string>
+	<string name="rotate_right_90">向右旋转</string>
+	<string name="Reset">重置</string>
+	<string name="SharedOnFb">分享至Facebook</string>
+
+</resources>

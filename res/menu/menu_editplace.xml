@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/editImg">
+		<item android:id="@+id/placeImg_rotate_left_90" android:title="@string/rotate_left_90"
+			android:icon="@drawable/ic_menu_rotate_left"></item>
+		<item android:id="@+id/placeImg_rotate_right_90" android:title="@string/rotate_right_90"
+			android:icon="@drawable/ic_menu_rotate_right"></item>
+	</group>
+</menu>

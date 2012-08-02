@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="burly_wood">#DEB887</color>
+	<color name="winphone7_blue">#1EA1E1</color>
+	<color name="lightblue">#ADD8E6</color>
+	<color name="skyblue">#87CEEB</color>
+	<color name="royalblue">#4169E1</color>
+	<color name="beige">#F5F5DC</color>
+	<color name="black">#000000</color>
+	<color name="white">#FFFFFF</color>
+	<color name="orange">#FFA500</color>
+	<color name="dark_grey">#3C3C3C</color>
+	<color name="green">#008000</color>
+	<color name="yellow">#FFD700</color>
+	<color name="red">#FF0000</color>
+	<color name="blue">#0000FF</color>
+	<color name="grey">#7B7B7B</color>
+	<color name="dark_orange">#DA000E</color>
+	<color name="bronze">#B0000E</color>
+</resources>

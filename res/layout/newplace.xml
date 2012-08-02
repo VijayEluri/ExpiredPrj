@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+	<ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<TextView android:textColor="@color/white" android:id="@+id/AddPlaceTxt"
+				android:layout_height="wrap_content" android:text="@string/PlaceAddTitle"
+				android:layout_width="fill_parent" android:textSize="28dp"
+				android:padding="5dp" android:background="@drawable/title_bg"
+				android:gravity="center_vertical"></TextView>
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="250dp" android:orientation="vertical"
+				android:id="@+id/llayout_img_frame" android:background="@drawable/pic_frame">
+				<ImageView android:id="@+id/PlaceImg" android:src="@drawable/place"
+					android:scaleType="fitCenter" android:layout_gravity="center"
+					android:layout_centerInParent="true" android:layout_height="180dp"
+					android:layout_width="wrap_content" android:adjustViewBounds="true"
+					android:fadingEdge="horizontal|vertical" android:fitsSystemWindows="true"></ImageView>
+			</RelativeLayout>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:hint="@string/PlaceNameInput"
+				android:id="@+id/PlaceNameEdit" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:layout_marginTop="15dp"
+				android:maxLength="30" android:singleLine="true"></EditText>
+            <!--
+                 <EditText android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:id="@+id/PlaceDescribeEdit"
+				android:hint="@string/PlaceDescInput" android:layout_marginLeft="5dp"
+				android:maxLength="30" android:layout_marginRight="5dp"
+				android:singleLine="true"></EditText>
+            -->
+
+
+			<Button android:id="@+id/OkButton" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/Confirm"
+				android:layout_gravity="bottom|center" android:textSize="20dp"
+				android:layout_margin="5dp" android:width="200dp" android:height="70dp"
+				android:textStyle="bold" android:background="@drawable/confirm_big"
+				android:textColor="@color/black"></Button>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

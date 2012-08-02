@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@drawable/ic_menu_add" android:id="@+id/newplace" android:title="@string/PlaceAddTitle"></item>
+	<!--<item android:id="@+id/positionall" android:title="@string/PositionAll" 
+		android:icon="@drawable/ic_menu_mylocation"></item> -->
+	<item android:title="@string/Homepage" android:icon="@drawable/ic_home"
+		android:id="@+id/home"></item>
+</menu>
